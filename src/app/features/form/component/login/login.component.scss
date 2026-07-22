@@ -1,18 +1,17 @@
 .login-wrapper {
     display: flex;
     justify-content: center;
+    width: 100%;
     padding: 2.5rem 1rem;
-    background: linear-gradient(135deg, #f6e7ff 0%, #e0f4ff 50%, #ffe9f0 100%);
-    min-height: 100vh;
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
 
 .login-card {
-    width: 100%;
-    max-width: 420px;
+    width: 90%;
+    max-width: 600px;
     background: #ffffff;
     border-radius: 20px;
-    padding: 2rem 1.75rem;
+    padding: 2.75rem 3rem; 
     box-shadow: 0 10px 30px rgba(150, 130, 200, 0.15);
 }
 
@@ -84,7 +83,7 @@
 
     input {
         flex: 1;
-        padding-right: 2.5rem;
+        padding-right: 4.5rem; 
     }
 
     .toggle-btn {
@@ -93,10 +92,16 @@
         background: none;
         border: none;
         cursor: pointer;
-        font-size: 1rem;
-        line-height: 1;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #a89bc4;
+        letter-spacing: 0.02em;
+
+        &:hover {
+        color: #7c6a9c;
+        }
     }
-    }
+}
 
 .checkbox-field {
     flex-direction: row;

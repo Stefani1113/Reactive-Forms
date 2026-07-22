@@ -4,8 +4,6 @@ import { LoginComponent } from './component/login/login.component';
 import { DataComponent } from './component/data/data.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
-
-
 @NgModule({
   declarations: [
     LoginComponent,
@@ -13,7 +11,11 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    ReactiveFormsModule // importo modulo de formularios reactivos
+    ReactiveFormsModule
+  ],
+  exports: [
+    LoginComponent,  
+    DataComponent    
   ]
 })
 export class FormModule { }

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { UserSummary } from '../login/login.component';
 
 @Component({
   selector: 'app-data',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class DataComponent {
 
+  @Input() userData: UserSummary | null = null;
 }

@@ -1,0 +1,39 @@
+.summary-wrapper {
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 1.75rem;
+    box-shadow: 0 10px 30px rgba(150, 130, 200, 0.15);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+
+    h3 {
+        margin: 0 0 1rem;
+        color: #6d5b97;
+        font-size: 1.15rem;
+        font-weight: 700;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.6rem 0;
+        border-bottom: 1px solid #f0eaf9;
+        font-size: 0.9rem;
+        color: #5c5470;
+
+        &:last-child {
+        border-bottom: none;
+        }
+
+        strong {
+        color: #a89bc4;
+        font-weight: 600;
+        }
+    }
+    }

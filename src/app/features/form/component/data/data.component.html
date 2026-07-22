@@ -1,1 +1,10 @@
-<p>data works!</p>
+<div class="summary-wrapper" *ngIf="userData">
+    <h3>Resumen del registro</h3>
+    <ul>
+        <li><strong>Nombre:</strong> {{ userData.fullName }}</li>
+        <li><strong>Correo:</strong> {{ userData.email }}</li>
+        <li><strong>Usuario:</strong> {{ userData.userName }}</li>
+        <li><strong>Edad:</strong> {{ userData.age }}</li>
+        <li><strong>Términos aceptados:</strong> {{ userData.tyc ? 'Sí' : 'No' }}</li>
+    </ul>
+</div>

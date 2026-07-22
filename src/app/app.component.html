@@ -1,1 +1,4 @@
-<app-login></app-login>
+<div class="page-wrapper">
+  <app-login (registered)="onUserRegistered($event)"></app-login>
+  <app-data [userData]="registeredData"></app-data>
+</div>
